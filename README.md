@@ -1,6 +1,6 @@
 <h2 align="center"><u>WHISPERS OF NAHID </u></h2>
 
-![Introduce Abnahid website ](images/banner.png)
+![Introduce Abnahid website ](/img/portfolio23.png)
 <h4 align="center"> Introduce Abnahid website  </h4>
 
 <p align="center">
