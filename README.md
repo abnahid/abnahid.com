@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Made%20In-Bangladesh -green?style=flat-square">
     <img src="https://img.shields.io/badge/Written%20In-HTML, CSS , JS -blue?style=flat-square">
 <br>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=abnahid &repo=Personal website &theme=synthwave">
+
 </p>
 
 ### [+] Description
