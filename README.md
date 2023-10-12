@@ -38,3 +38,4 @@ If you need any kind of service then go to my website and contact me
 
 <a href="https://m.me/hsnahid50k" target="_blank"><img src="https://img.shields.io/badge/Messenger-hsnahid50k-blue?style=for-the-badge&logo=messenger"></a>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/20a6ffba-6e94-486f-a1ce-672b925cfdcb/deploy-status)](https://app.netlify.com/sites/ajnahid/deploys)
