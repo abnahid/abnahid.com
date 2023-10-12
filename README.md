@@ -4,7 +4,7 @@ Foobar is a HTML CSS JS library for dealing with word pluralization.
 
 ## Vew site
 
-Vew Site link [ab.nahid](https://abnahid.github.io/personal-website) to Vew Now .
+Vew Site link [ab.nahid](https://abnahid.com) to Vew Now .
 
 ```bash
 pip install foobar
