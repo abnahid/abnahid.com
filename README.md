@@ -1,37 +1,40 @@
-# Foobar
+<h2 align="center"><u>WHISPERS OF NAHID </u></h2>
 
-Foobar is a HTML CSS JS library for dealing with word pluralization.
+![Introduce Abnahid website ](images/banner.png)
+<h4 align="center"> Introduce Abnahid website  </h4>
 
-## Vew site
+<p align="center">
+    <img src="https://img.shields.io/github/license/abnahid /Personal website ?style=for-the-badge&color=blue">
+<br>
+    <img src="https://img.shields.io/badge/Author-Abnahid -magenta?style=flat-square">
+    <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
+    <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
+    <img src="https://img.shields.io/badge/Made%20In-Bangladesh -green?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-HTML, CSS , JS -blue?style=flat-square">
+<br>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=abnahid &repo=Personal website &theme=synthwave">
+</p>
 
-Vew Site link [ab.nahid](https://abnahid.com) to Vew Now .
+### [+] Description
+Welcome to adnahid.com, your trusted source for comprehensive digital marketing solutions in Sylhet City. We are a team of seasoned professionals offering a wide range of services, including Social Media Marketing (SMM), SEO expertise, WordPress theme setup, and top-notch Social Media Promotion services. With a proven track record of success, we're here to help your online presence thrive.
 
-```bash
-pip install foobar
-```
+### [+] Screenshot
+![screenshot]([Web SS](http://www.site-shot.com/MI4mKGjvEe6jtAJCrBEACA))
 
-## Usage
+### [+] Features
+ - SEO Services Provided 
+ - SMM Service Provide 
+ - Video Editing Service 
+ - Wordpress Setup 
 
-```python
-import foobar
+### [+] Credits 
+<a href="Abnahid.com">aznahid507 </a>
 
-# returns 'words'
-foobar.pluralize('word')
+### [+] Disclaimer 
+If you need any kind of service then go to my website and contact me
 
-# returns 'geese'
-foobar.pluralize('goose')
+### [+] Find me on 
+<a href="mailto:aznahid507@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-aznahid507@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+<a href="https://m.me/hsnahid50k" target="_blank"><img src="https://img.shields.io/badge/Messenger-hsnahid50k-blue?style=for-the-badge&logo=messenger"></a>
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[AZ NAHID](https://txnahid2022.blogspot.com/)
