@@ -233,6 +233,7 @@ header.sticky{
 .row h3{
 	font-size: 25px;
 	font-weight: 700;
+	color: #fff;
 }
 .row h6{
 	color: var(--main-color);
@@ -242,6 +243,7 @@ header.sticky{
 }
 .row-icon i{
 	font-size: 21px;
+	color: #fff;
 }
 .row:hover{
 	transform: scale(1.01) translateY(-5px);
