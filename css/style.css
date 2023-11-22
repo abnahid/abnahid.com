@@ -391,6 +391,27 @@ form textarea{
     transform: rotate(90deg);
 }
 
+
+.article-content{
+
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	align-items: center;
+	text-align: left;
+	gap: 2rem;
+	margin-top: 5rem;
+}
+
+.article-content .box img{
+    height: auto;
+	width: 100%;
+	border-radius: 0.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+
 .last-text p{
 	text-align: center;
 	padding: 15px;
