@@ -115,34 +115,6 @@ article {
     color: white;
   }
 
- /** 
-  .highlight {
-    margin: auto;
-    margin-bottom: 3em;
-    background-color: var(--accent-10);
-    max-width: 60ch;
-    border-radius: 0.5em;
-    padding: 3em;
-  }
-
-  
-  em {
-    color: var(--emphasis);
-  }
-  
-  ul {
-    margin: 1.5em;
-  }
-  
-  li {
-    padding-bottom: 1.5em;
-    margin-left: 1em;
-    font-size: var(--paragraph);
-    color: var(--emphasis);
-    list-style: square;
-  }
-  
-**/
 
 @media screen and (max-width: 760px) {
     body {
