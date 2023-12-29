@@ -1,0 +1,51 @@
+
+.menu-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.menu-column {
+     display: flex;
+flex-wrap: wrap;
+/* Adjust the gap as needed */
+}
+
+.menu-item {
+    flex: 1 0 calc(25% - 20px); /* Adjust the width and margin as needed */
+    max-width: calc(25% - 20px); /* Limit maximum width to maintain 4 columns */
+    transition: transform 0.3s ease-in-out;
+    margin: 0 10px 20px 0; /* Adjust the margin as needed */
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu-item-content {
+    padding: 20px;
+}
+
+.menu-filter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-filter button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb4a4a;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.menu-filter button:hover {
+    background-color: #eb4a4a;
+}

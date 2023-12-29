@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /tel:+8801616411360
-Disallow: /article-layout
 Sitemap: https://abnahid.com/sitemap.xml
