@@ -1,4 +1,3 @@
-
 .menu-container {
     max-width: 1200px;
     margin: 50px auto;
@@ -6,9 +5,9 @@
 }
 
 .menu-column {
-     display: flex;
-flex-wrap: wrap;
-/* Adjust the gap as needed */
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjust the gap as needed */
 }
 
 .menu-item {
@@ -44,7 +43,6 @@ flex-wrap: wrap;
     color: #fff;
     transition: background-color 0.3s ease-in-out;
 }
-
 
 .menu-filter button:hover {
     background-color: #eb4a4a;
