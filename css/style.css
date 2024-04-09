@@ -596,7 +596,7 @@ form textarea{
 		grid-template-columns: 1fr;
 	}
 	.wrapper{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1fr);
     } 
 }
 
