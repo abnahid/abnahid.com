@@ -338,58 +338,70 @@ form textarea{
 	cursor: pointer;
 }
 
-.faq-container {
-    display: grid;
-    align-items: center;
-    background-color: #12141c;
-    border-radius: 10px;
-}
-
-.faq-item {
-    padding: 20px;
-    border-bottom: 1px solid #e0e0e0;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.faq-item:last-child {
-    border-bottom: none;
-}
-
-.faq-question {
+.faq {
+	padding: 10px 12px;
+	text-align: center;
 	font-size: 18px;
-	font-weight: 700;
-	padding-bottom: 3px;
-	padding-top: 3px;
-  }
+}
 
-.faq-answer {
-	font-size: 16px;
+.faq h2 {
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	color: #fff;
+}
+
+#Questions {
+	margin: 2rem auto;
+	width: 95%;
+}
+
+#Questions li {
+	list-style: none;
+	width: 100%;
+	margin-bottom: 10px;
+	background: var(--other-color);
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#Questions li label {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	color: var(--main-color);
+}
+
+#Questions li label i {
+	transition: transform 0.5s;
+	font-size: 22px;
+	color: var(--second-color);
+}
+
+#Questions li label i.active {
+	transform: rotate(90deg);
+}
+
+#Questions label+input[type="radio"] {
+	display: none;
+}
+
+#Questions .content {
+	padding: 0 10px;
+	line-height: 26px;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.3s ease-in-out;
-	text-align: left;
-	padding-left: 10px;
-	padding-right: 10px;
+	transition: max-height 0.5s;
+	color: var(--second-color);
 }
 
-.faq-answer.active {
-    border-bottom: 1px solid #e0e0e0;
+#Questions label+input[type="radio"]:checked+.content {
+	max-height: 400px;
 }
-
-.icon-container i {
-    font-size: 16px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.icon-container i.active {
-    transform: rotate(90deg);
-}
-
 
 .article-content{
 

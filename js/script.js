@@ -29,31 +29,30 @@ sr.reveal('.about,.services',{delay:200, origin:'bottom'})
 
 ///-------------- faq --------------------------///
 
-const faqItems = document.querySelectorAll('.faq-item');
+const faqItems = document.querySelectorAll('#Questions li');
 
 faqItems.forEach(item => {
-  const question = item.querySelector('.faq-question');
-  const answer = item.nextElementSibling;
-  const icon = item.querySelector('i');
+  const label = item.querySelector('label');
+  const content = item.querySelector('.content');
+  const icon = label.querySelector('i');
 
-  item.addEventListener('click', () => {
+  label.addEventListener('click', () => {
     faqItems.forEach(otherItem => {
       if (otherItem !== item) {
-        const otherAnswer = otherItem.nextElementSibling;
+        const otherContent = otherItem.querySelector('.content');
         const otherIcon = otherItem.querySelector('i');
 
-        otherAnswer.classList.remove('active');
+        otherContent.style.maxHeight = "0";
         otherIcon.classList.remove('active');
-        otherAnswer.style.maxHeight = "0";
       }
     });
 
-    answer.classList.toggle('active');
-    icon.classList.toggle('active');
-    if (answer.classList.contains('active')) {
-      answer.style.maxHeight = answer.scrollHeight + "px";
+    if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+      content.style.maxHeight = "0";
+      icon.classList.remove('active');
     } else {
-      answer.style.maxHeight = "0";
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.classList.add('active');
     }
   });
 });
