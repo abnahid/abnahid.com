@@ -770,7 +770,11 @@ form textarea {
 	}
 
 	.home-section {
-		height: 85vh;
+		grid-template-columns: 1fr;
+	}
+
+	.home-image {
+		text-align: center;
 	}
 
 	.about {
