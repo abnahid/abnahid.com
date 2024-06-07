@@ -144,6 +144,10 @@ img {
     color: var(--main-color);
 }
 
+.home-image {
+	text-align: center;
+}
+
 .home-image img {
 	height: auto;
 	width: 100%;
@@ -773,9 +777,6 @@ form textarea {
 		grid-template-columns: 1fr;
 	}
 
-	.home-image {
-		text-align: center;
-	}
 
 	.about {
 		grid-template-columns: 1fr;
