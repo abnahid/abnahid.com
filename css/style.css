@@ -114,32 +114,25 @@ img {
 }
 
 
-.home-section .home-text,
-.home-section .home-image {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding: 0 25px;
-
-    position: relative;
-	background-size: cover;
-	justify-content: flex-start;
-    background-position: center;
-    align-items: center;
+.home-section{
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
 }
 
-.home-section .home-text h4 {
+.home-text h4 {
     color: var(--main-color);
 	font-size: 24px;
 	font-weight: 600;
 }
 
-.home-section .home-text h3 {
+.home-text h3 {
 	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 3rem;
 }
-
-.home-section .home-text h1 {
+.home-text h1 {
 	margin: 20px 0;
 	font-size:3.5rem;
 	font-weight: bold;
@@ -147,15 +140,14 @@ img {
 	letter-spacing: 2px;
 }
 
-.home-section .home-text span {
+.home-text span {
     color: var(--main-color);
 }
 
-
-.home-section .home-image .img-box img {
-    position: relative;
-    width: 100%;
-    z-index: 789;
+.home-image img {
+	height: auto;
+	width: 100%;
+	max-width: 460px;
 }
 
 header.sticky {
@@ -777,7 +769,7 @@ form textarea {
 		padding: 70px 3% 60px;
 	}
 
-	.home {
+	.home-section {
 		height: 85vh;
 	}
 
