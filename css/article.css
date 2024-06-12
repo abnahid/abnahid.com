@@ -77,7 +77,6 @@ p {
   display: inline-block;
   background-color: var(--accent-10);
   color: var(--accent);
-  margin-bottom: 6em;
   font-size: 1rem;
   padding: 0.5em 1em;
   border-radius: 0.5em;
@@ -97,7 +96,6 @@ article img {
 a {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
 }
 
 a:hover {
